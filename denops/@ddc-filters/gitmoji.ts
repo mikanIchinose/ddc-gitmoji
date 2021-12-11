@@ -1,4 +1,4 @@
-import { CompletionMetadata } from "../@ddc-sources/emoji.ts";
+import { CompletionMetadata } from "../@ddc-sources/gitmoji.ts";
 import { 
   BaseFilter,
   Candidate 
