@@ -1,6 +1,15 @@
-import { BaseSource, Item } from "https://deno.land/x/ddc_vim@v3.3.0/types.ts";
-import { assertEquals } from "https://deno.land/x/ddc_vim@v3.3.0/deps.ts#^";
-import gitmojiJson from "./data.ts";
+import {
+  BaseSource,
+  Candidate,
+  Item
+} from "https://deno.land/x/ddc_vim@v3.3.0/types.ts";
+import {
+  assertEquals,
+} from "https://deno.land/x/ddc_vim@v3.3.0/deps.ts#^";
+import {
+  GatherCandidatesArguments,
+} from "https://deno.land/x/ddc_vim@v3.3.0/base/source.ts#^";
+import gitmojiJson from "./data.ts"
 
 type Gitmoji = {
   emoji: string;

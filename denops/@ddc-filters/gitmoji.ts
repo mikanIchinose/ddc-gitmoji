@@ -1,5 +1,9 @@
 import { CompletionMetadata } from "../@ddc-sources/gitmoji.ts";
-import { BaseFilter, Item } from "https://deno.land/x/ddc_vim@v3.3.0/types.ts";
+import {
+  BaseFilter,
+  Candidate,
+  Item
+} from "https://deno.land/x/ddc_vim@v3.3.0/types.ts";
 
 export class Filter extends BaseFilter<{}> {
   filter(
